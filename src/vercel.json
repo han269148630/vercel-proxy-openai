@@ -1,9 +1,10 @@
 {
+    "name": "myvercel",
     "version": 2,
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "vercel.com/"
+            "dest": "https://vercel.com/$1"
         }
     ]
 }
