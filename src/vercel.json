@@ -3,7 +3,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://www.baidu.com"
+            "dest": "https://vercel.com/"
         }
     ]
 }
