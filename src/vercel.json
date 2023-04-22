@@ -1,8 +1,10 @@
 {
-    "rewrites": [
+    "name": "MarkProxy",
+    "version": 2,
+    "routes": [
         {
-            "source": "/:match*",
-            "destination": "https://api.openai.com/:match*"
+            "src": "/(.*)",
+            "dest": "https: //www.google.com/$1"
         }
     ]
 }
