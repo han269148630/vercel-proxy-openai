@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/:match*",
-            "destination": "www.google.com/:match*"
+            "destination": "https://www.google.com/:match*"
         }
     ]
 }
