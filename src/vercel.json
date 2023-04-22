@@ -1,10 +1,9 @@
 {
-    "name": "MarkProxy",
     "version": 2,
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://www.google.com/$1"
+            "dest": "https://www.baidu.com"
         }
     ]
 }
