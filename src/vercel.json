@@ -3,7 +3,8 @@
         {
             "source": "/:match*",
             // "destination": "https://api.openai.com/:match*"
-            "destination": "https://chat.openai.com/auth/lo/:match*"
+            // "destination": "https://chat.openai.com/auth/lo/:match*"
+            "destination": "https://www.baidu.com/:match*"
         }
     ]
 }
