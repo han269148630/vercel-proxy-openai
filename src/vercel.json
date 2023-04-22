@@ -1,6 +1,8 @@
 {
-    "version": 2,
-    "routes": [
-      {"src": "/(.*)","dest": "https://www.baidu.com"}
+    "rewrites": [
+        {
+            "source": "/:match*",
+            "destination": "www.google.com/:match*"
+        }
     ]
 }
